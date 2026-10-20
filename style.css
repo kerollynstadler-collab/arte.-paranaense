@@ -1,14 +1,14 @@
 :root{
---coor-fundo: #a47dab;
---cor-yexto:#000000 ;
---cor-principal:#D177A7 ;
---cor-secundaria:hsl(324, 100%, 90%) ;
---cor-hover:#A47DAB ;
+--coor-fundo: hsl(291, 53%, 63%);
+--cor-yexto:hsl(0, 0%, 3%) ;
+--cor-principal:hsl(328, 57%, 58%) ;
+--cor-secundaria:hwb(324 52% 2%) ;
+--cor-hover:hsl(291, 33%, 54%) ;
 --cor-superficie: lch(59.11% 75.89 324.36);
---cor-card: #632747;
---cor-legenda: #33002C;
+--cor-card: hsl(328, 58%, 20%);
+--cor-legenda: hsl(308, 74%, 15%);
 --cor-clara:hsl(328, 34%, 50%) ;
---cor-rodape:#85325E ;
+--cor-rodape:lab(58.45% 36.55 -35.97) ;
 }
 
 body {
@@ -142,7 +142,8 @@ button{
 button:hover{
     background-color: pink;
 }
-.curtir
-  display:block;
-  with:fit-content;
-  margi:20 px auto;
+.curtir{
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+}
