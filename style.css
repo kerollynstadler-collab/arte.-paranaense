@@ -1,3 +1,16 @@
+:root{
+--coor-fundo: #a47dab;
+--cor-yexto:#000000 ;
+--cor-principal:#D177A7 ;
+--cor-secundaria:hsl(324, 100%, 90%) ;
+--cor-hover:#A47DAB ;
+--cor-superficie: lch(59.11% 75.89 324.36);
+--cor-card: #632747;
+--cor-legenda: #33002C;
+--cor-clara:hsl(328, 34%, 50%) ;
+--cor-rodape:#85325E ;
+}
+
 body {
 background-color: #83a3fc;
 color: #083203;
@@ -100,7 +113,9 @@ padding: 15px;
 margin: 15px 0;
 border-left: 6px solid #282a8a;
 border-radius: 10px;
+flex:1 1 3000xp
 }
+
 
 .card h3 {
 margin-top: 0;
@@ -115,12 +130,14 @@ margin-top: 30px;
 }
 
 button{
-    background-color: rgb(7, 20, 209);
+    background-color: var(--cor-principal);
     border: none;
     padding: 10px 15px;
     border-radius: 7px;
     cursor: pointer;
+ 
 }
+
 
 button:hover{
     background-color: pink;
