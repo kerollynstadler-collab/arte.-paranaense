@@ -10,7 +10,13 @@
 --cor-clara:hsl(328, 34%, 50%) ;
 --cor-rodape:lab(58.45% 36.55 -35.97) ;
 }
-
+.tema-escuro {
+--cor-fundo: #121212;
+--cor-texto:#2222;
+--cor-principal: #111;
+--cor-superficie: #f80d18;
+--cor-card: #2b2530;
+}
 body {
 background-color: #83a3fc;
 color: #083203;
@@ -146,4 +152,25 @@ button:hover{
   display: block;
   width: fit-content;
   margin: 20px auto;
+}
+.galeria{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.cards-curiosidades{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-tema{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+
 }
